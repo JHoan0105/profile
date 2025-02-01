@@ -1,0 +1,37 @@
+[
+  {
+    "page name": "Marketplace",
+    "visitors" : "4.847",
+    "unique visitors":"3.455",
+    "clients":"439",
+    "bounce rate":"+2.45%"
+  },
+  {
+    "page name": "Horizon UI Dashboard",
+    "visitors" : "4.034",
+    "unique visitors":"2.943",
+    "clients":"427",
+    "bounce rate":"-9.45%"
+  },
+  {
+    "page name": "Venus Design System",
+    "visitors" : "3.502",
+    "unique visitors":"2.478",
+    "clients":"403",
+    "bounce rate":"+7.87%"
+  },
+  {
+    "page name": "Chakra UI Design",
+    "visitors" : "3.323",
+    "unique visitors":"2.336",
+    "clients":"397",
+    "bounce rate":"-1.44%"
+  },
+  {
+    "page name": "Simmmple Company",
+    "visitors" : "3.244",
+    "unique visitors":"2.302",
+    "clients":"287",
+    "bounce rate":"-0.21%"
+  }
+]

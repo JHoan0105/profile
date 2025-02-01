@@ -1,0 +1,126 @@
+{
+  "imei": "300058030006000",
+  "accountNumber": "10000393",
+  "serviceType": "CERTUS",
+  "submarket": {
+    "id": "11567457074",
+    "name": "Certus Aviation",
+    "code": "CER_TEMPE_AV"
+  },
+  "profile": {
+    "maxMessageSize": 1890,
+    "description": "SFX",
+    "serviceCategory": "SFX_STD"
+  },
+  "model": {
+    "id": "38482966317",
+    "name": "88 Aviation Test",
+    "modelNumber": "88 Aviation Test",
+    "certusVoiceCapable": true,
+    "voiceQuality": "HIGH_ONLY",
+    "maxVoiceLines": 2,
+    "maxDataSpeed": "KBPS_88"
+  },
+  "ipRanges": [
+    {
+      "id": 301,
+      "name": "IWS Sandbox Testing (15/15)",
+      "accountNumber": "10000393",
+      "rangeStart": "172.31.240.240",
+      "rangeEnd": "172.31.240.254",
+      "open": false
+    }
+  ],
+  "bundles": [
+    {
+      "id": "a1K560000012WngEAE",
+      "salesforceName": "CERTUS-202302000000435-BUN",
+      "account": "0016000000T3RBQAA3",
+      "accountNumber": "10000393",
+      "billingDetail": 2,
+      "bundleName": "AviationTest",
+      "voiceService": "",
+      "dataService": "a1J560000016lNiEAI",
+      "vpnService": "",
+      "startDate": "2023-02-14",
+      "periodicity": 1,
+      "servicePlanID": "35879969853",
+      "submarketID": "11567457074"
+    },
+    {
+      "id": "a1K560000012oaOEAQ",
+      "salesforceName": "CERTUS-202304000000438-BUN",
+      "account": "0016000000T3RBQAA3",
+      "accountNumber": "10000393",
+      "billingDetail": 2,
+      "bundleName": "testingvpn1",
+      "voiceService": "",
+      "dataService": "a1J560000016v7YEAQ",
+      "vpnService": "a1I560000010LYjEAM",
+      "startDate": "2023-04-04",
+      "periodicity": 1,
+      "servicePlanID": "35879969853",
+      "submarketID": "11567457074"
+    },
+    {
+      "id": "a1K560000012ob2EAA",
+      "salesforceName": "CERTUS-202304000000446-BUN",
+      "account": "0016000000T3RBQAA3",
+      "accountNumber": "10000393",
+      "billingDetail": 2,
+      "bundleName": "data1",
+      "voiceService": "",
+      "dataService": "a1J560000016v7dEAA",
+      "vpnService": "",
+      "startDate": "2023-04-04",
+      "periodicity": 1,
+      "servicePlanID": "35879969853",
+      "submarketID": "11567457074"
+    },
+    {
+      "id": "a1K560000012ob7EAA",
+      "salesforceName": "CERTUS-202304000000447-BUN",
+      "account": "0016000000T3RBQAA3",
+      "accountNumber": "10000393",
+      "billingDetail": 2,
+      "bundleName": "vpn9",
+      "voiceService": "",
+      "dataService": "a1J560000016v7nEAA",
+      "vpnService": "a1I560000010LYyEAM",
+      "startDate": "2023-04-04",
+      "periodicity": 1,
+      "servicePlanID": "35879969853",
+      "submarketID": "11567457074"
+    },
+    {
+      "id": "a1K560000014BIWEA2",
+      "salesforceName": "CERTUS-202304000000448-BUN",
+      "account": "0016000000T3RBQAA3",
+      "accountNumber": "10000393",
+      "billingDetail": 2,
+      "bundleName": "TestingModifiedDataService",
+      "voiceService": "",
+      "dataService": "a1J560000017I06EAE",
+      "vpnService": "",
+      "startDate": "2023-04-26",
+      "periodicity": 1,
+      "servicePlanID": "35879969853",
+      "submarketID": "11567457074"
+    },
+    {
+      "id": "a1K560000014BKXEA2",
+      "salesforceName": "CERTUS-202304000000450-BUN",
+      "account": "0016000000T3RBQAA3",
+      "accountNumber": "10000393",
+      "billingDetail": 2,
+      "bundleName": "TestingVpnData",
+      "voiceService": "",
+      "dataService": "a1J560000017I0aEAE",
+      "vpnService": "a1I56000001EL2fEAG",
+      "startDate": "2023-04-26",
+      "periodicity": 1,
+      "servicePlanID": "35879969853",
+      "submarketID": "11567457074"
+    }
+  ]
+}

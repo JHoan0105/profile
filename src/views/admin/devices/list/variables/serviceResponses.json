@@ -1,0 +1,34 @@
+//Deactivation error
+{
+  "timestamp": "2024-05-23T20:05:46Z",
+  "code": 500,
+  "message": "cannot process deactivation with no subscriber account"
+} { /* On Cancel deactivation request on device without Scheduled deactivation
+{
+  "error": "cancellation failure: active operation in progress for device 300058030006000"
+}
+
+
+  {
+  "type": "Deactivation",    // "Activation", Force Deactivation
+  "imei": "300058060209780",  300058030006000 -- delete record
+  "state": "Delete",
+  "message": "Hey"
+}
+*/
+/* fixing list
+
+      const temporary = async ()=>{
+          try {
+              const sendStatus = await updateDeviceStatusList('Deactivation', "300058030006000", "Delete", JSON.stringify({ message: "Removed" }))
+              console.log('removed ', sendStatus)
+              const deviceStatus = await getDeviceDeactivationStatus(deviceId, account);
+              const currentDevice = deviceStatus.filter(i => i.imei === deviceId)[0];
+              console.log("list ", currentDevice)
+          } catch (error) {
+              console.log('cancelled', error)
+          }
+      }
+      temporary();
+
+*/

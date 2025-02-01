@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /
+Sitemap: https://www.guardianmobility.com/site-map/
