@@ -85,7 +85,7 @@ export default function Footer() {
             <Link
               fontWeight='500'
               color={textColor}
-              href='#'>
+              href='https://JHoan0105.github.io/profile/'>
               Terms of Use
             </Link>
           </ListItem>
@@ -93,7 +93,7 @@ export default function Footer() {
             <Link
               fontWeight='500'
               color={textColor}
-              href='#'>
+              href='https://JHoan0105.github.io/profile/'>
               Privacy Policy
             </Link>
           </ListItem>

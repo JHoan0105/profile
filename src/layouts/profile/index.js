@@ -222,7 +222,7 @@ export default function Dashboard(props) {
                   listItems={[
                     'Binary Tree, Heap, Stack, Queue, Deque, and Linked list.',
                     'Multi-threaded programming in C, C++, C# and Java',
-                    'Implementation of FSM’s Moore and Mealy models.',
+                    'Implementation of FSM\'s Moore and Mealy models.',
                     'GUI programming using Java Swing and implemented MVC',
                     'REST architectural style programming.',
                   'Understanding and implementation of database design normalized to 3NF.']}

@@ -92,9 +92,9 @@ export default function HeaderLinks(props) {
           maxW={{ base: '360px', md: 'unset' }}
         >
           <Flex flexDirection="column">
-            <Link w="100%" href="https://www.guardianmobility.com/">
+            <Link w="100%" href="https://JHoan0105.github.io/profile/">
               <Button w="100%" h="44px" mb="10px" variant="brand">
-                Guardian Mobility
+                Profile Page
               </Button>
             </Link>
             <Link w="100%" href="/main/release">
@@ -104,7 +104,7 @@ export default function HeaderLinks(props) {
             </Link>
             <Link
               w="100%"
-              href="https://www.guardianmobility.com/contact/"
+              href="https://JHoan0105.github.io/profile/"
             >
               <Button
                 w="100%"

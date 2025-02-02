@@ -73,7 +73,7 @@ export default function Footer() {
             <Link
               fontWeight='500'
               color={textColor}
-              href='https://JHoan0105.github.io/reactapp/'>
+              href='https://JHoan0105.github.io/profile/'>
               Git Hub Page
             </Link>
           </ListItem>
