@@ -58,8 +58,8 @@ function SignIn() {
 
   const [failed, setFailed] = useState(false);                         // Set Failed state to show red message
   let msg = useRef(null);                                              // Red failed message appears when user fails signin
-  const [email, setEmail] = useState('');                              // User's sign in email
-  const [userPass, setPassword] = useState('');                        // User's sign in password 
+  const [email, setEmail] = useState('sample@email.com');                              // User's sign in email
+  const [userPass, setPassword] = useState('any');                        // User's sign in password 
   const [errorMessage, setErrorMessage] = useState(null);              // Toast error message 
   const [loading, setLoading] = useState(false);                       // Button loading animation
 
@@ -287,7 +287,7 @@ function SignIn() {
               fontSize="sm"
               ms={{ base: '0px', md: '0px' }}
               type="email"
-              placeholder="mail@guardianmobility.com"
+              placeholder="email@override.com"
               _placeholder={{ fontWeight: "400", color: "grey" }}
               mb="24px"
               fontWeight="500"

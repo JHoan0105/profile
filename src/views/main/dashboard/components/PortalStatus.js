@@ -44,7 +44,7 @@ export default function PortalStatus({ activeDevice, certusCallout, gDatabase, .
           color={textColor}
           fontSize='sm'
           fontWeight='500'>
-          Guardian Satellite API
+          Sample Satellite API
         </Text>
         <Icon
           w="24px"
@@ -78,7 +78,7 @@ export default function PortalStatus({ activeDevice, certusCallout, gDatabase, .
           color={textColor}
           fontSize='sm'
           fontWeight='500'>
-          Guardian Database API
+          Sample Database API
         </Text>
         <Icon
           w="24px"
@@ -112,7 +112,7 @@ export default function PortalStatus({ activeDevice, certusCallout, gDatabase, .
           color={textColor}
           fontSize='sm'
           fontWeight='500'>
-          Guardian Provisioning API
+          Sample Provisioning API
         </Text>
         <Icon
           w="24px"

@@ -11,7 +11,7 @@ import axios from 'axios';
 import getAccountInfo from 'services/account/getAccountInfo'
 
 // Default function
-export default async function getDevice(a) {
+export default async function getDevice(a='default') {
   const jwtToken = document.cookie.split(';').find(cookie => cookie.trim().startsWith('token='));
   console.log("Account Number", a)
   const account = getAccountInfo();
@@ -61,7 +61,8 @@ export default async function getDevice(a) {
       // TODO : TEST WHEN RYAN TURN OFF DEVICE SERVICE -- should block response message
       console.error("Other error:", error.message);
       const tmp = error?.response?.statusText?.toString();
-      if (tmp.match(/Internal Server Error/gi))
+
+      if (tmp?.match(/Internal Server Error/gi))
         console.error('DEVICE ERROR REDIRECT to clear response message')
         // connect ECONNREFUSED 192.168.130.25:10443
     }

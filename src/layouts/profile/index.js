@@ -126,6 +126,7 @@ export default function Dashboard(props) {
         >
           {/*Items*/}
           <Box ml='30px'>
+            <Section headerSample='headerSample'/>
             <SimpleGrid
               columns={{ sm: 2, md: 2, lg: 2 }}
             >
